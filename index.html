@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>Calculator</h1>
+    <form>
+        <input type="text" name="input_1" placeholder="Enter input value 1" id="input1">
+        <input type="text" name="input_2" placeholder="Enter input value 2" id="input2">
+        <span>=</span>
+        <span id="result"></span>
+        <br/><br/>
+        <input type="button" value="Addition" id="add" onclick="btnClick(this.id)">
+        <input type="button" value="Subtract" id="sub" onclick="btnClick(this.id)">
+        <input type="button" value="Multiply" id="mul" onclick="btnClick(this.id)">
+        <input type="button" value="Divide" id="div" onclick="btnClick(this.id)">
+        <input type="button" value="Square" id="square" onclick="btnClick(this.id)">
+        <input type="button" value="Cube" id="cube" onclick="btnClick(this.id)">
+        <input type="button" value="Reset" id="clear" onclick="btnClick(this.id)">
+        <br/><br/>
+    </form>
+    <script src="./js/script.js"></script>
+</body>
+</html>
